@@ -114,15 +114,17 @@ Scikit-learn – NLP & machine learning
 WordCloud – text visualization
 
 📂 Project Structure
-HR/
+project-root/
 │
 ├── data/
-│   └── processed/
-│       └── clean_workers_data.csv
+│   ├── processed/
+│   │   └── clean_workers_data.csv
+│   └── EDA_charts/
 │
-├── stremui.py
-├── README.md
-└── requirements.txt
+├── scripts/
+│   └── eda.py
+│
+└── README.md
 
 🚀 How to Run the Project
 
